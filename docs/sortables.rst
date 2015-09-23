@@ -34,7 +34,7 @@ To use change list sortable you must do following:
         ...
         order = models.PositiveIntegerField()
 
-2. In your in your ``admin.py`` extend ``SortableModelAdmin`` class and specify ``sortable`` name::
+2. In your ``admin.py`` extend ``SortableModelAdmin`` class and specify ``sortable`` name::
 
     from suit.admin import SortableModelAdmin
 
